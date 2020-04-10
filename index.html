@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Periodic Table</title>
+
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+
+        #heading {
+            background-color: yellow;
+            height: 50px;
+            font-size: 50px;
+        }
+
+        .cGreen {
+            color: darkgreen;
+        }
+
+        .cBlue {
+            color: blue;
+        }
+
+        .cBrown {
+            color: chocolate;
+        }
+
+        .lightred {
+            background-color: rgb(246, 160, 145);
+        }
+
+        .darkPink {
+            background-color: rgb(233, 168, 190);
+        }
+
+        .blue {
+            background-color: rgb(143, 210, 236);
+        }
+
+        .yellow {
+            background-color: rgb(253, 253, 123);
+        }
+
+        .green {
+            background-color: rgb(184, 236, 184);
+        }
+
+        .brown {
+            background-color: rgb(243, 225, 186);
+        }
+
+        .lightblue {
+            background-color: rgb(226, 237, 246);
+        }
+
+        .khaki {
+            background-color: rgb(221, 172, 39);
+        }
+
+        .lightPink {
+            background-color: rgb(236, 217, 236);
+        }
+
+        .elementName {
+            /* font-weight: bold; */
+            font-size: 18px;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px 10px;
+            width: 45px;
+        }
+
+        tr.spaceBetweenRows>td {
+            padding-bottom: 0.3em;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th id="heading" colspan="18">The Periodic Table</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="lightred cGreen">1<br><span class="elementName">H</span></td>
+                <td style="border: 0px;" colspan="16"></td>
+                <td class="lightblue cGreen">2<br><span class="elementName">He</span></td>
+            </tr>
+            <tr>
+                <td class="darkPink">3<br><span class="elementName">Li</span></td>
+                <td class="blue">4<br><span class="elementName">Be</span></td>
+                <td style="border: 0px;" colspan="10"></td>
+                <td class="khaki">5<br><span class="elementName">B</span></td>
+                <td class="lightred">6<br><span class="elementName">C</span></td>
+                <td class="lightred cGreen">7<br><span class="elementName">N</span></td>
+                <td class="lightred cGreen">8<br><span class="elementName">O</span></td>
+                <td class="brown cGreen">9<br><span class="elementName">F</span></td>
+                <td class="lightblue cGreen">10<br><span class="elementName">Ne</span></td>
+            </tr>
+            <tr>
+                <td class="darkPink">11<br><span class="elementName">Na</span></td>
+                <td class="blue">12<br><span class="elementName">Mg</span></td>
+                <td style="border: 0px;" colspan="10"></td>
+                <td class="green">13<br><span class="elementName">Al</span></td>
+                <td class="khaki">14<br><span class="elementName">Si</span></td>
+                <td class="lightred">15<br><span class="elementName">P</span></td>
+                <td class="lightred">16<br><span class="elementName">S</span></td>
+                <td class="brown cGreen">17<br><span class="elementName">Cl</span></td>
+                <td class="lightblue cGreen">18<br><span class="elementName">Ar</span></td>
+            </tr>
+            <tr>
+                <td class="darkPink">19<br><span class="elementName">K</span></td>
+                <td class="blue">20<br><span class="elementName">Ca</span></td>
+                <td class="yellow">21<br><span class="elementName">Sc</span></td>
+                <td class="yellow">22<br><span class="elementName">Ti</span></td>
+                <td class="yellow">23<br><span class="elementName">V</span></td>
+                <td class="yellow">24<br><span class="elementName">Cr</span></td>
+                <td class="yellow">25<br><span class="elementName">Mn</span></td>
+                <td class="yellow">26<br><span class="elementName">Fe</span></td>
+                <td class="yellow">27<br><span class="elementName">Co</span></td>
+                <td class="yellow">28<br><span class="elementName">Ni</span></td>
+                <td class="yellow">29<br><span class="elementName">Cu</span></td>
+                <td class="yellow">30<br><span class="elementName">Zn</span></td>
+                <td class="green cBlue">31<br><span class="elementName">Ga</span></td>
+                <td class="khaki">32<br><span class="elementName">Ge</span></td>
+                <td class="khaki">33<br><span class="elementName">As</span></td>
+                <td class="lightred">34<br><span class="elementName">Se</span></td>
+                <td class="brown cBlue">35<br><span class="elementName">Br</span></td>
+                <td class="lightblue cGreen">36<br><span class="elementName">Kr</span></td>
+            </tr>
+            <tr>
+                <td class="darkPink">37<br><span class="elementName">Rb</span></td>
+                <td class="blue">38<br><span class="elementName">Sr</span></td>
+                <td class="yellow">39<br><span class="elementName">Y</span></td>
+                <td class="yellow">40<br><span class="elementName">Zr</span></td>
+                <td class="yellow">41<br><span class="elementName">Nb</span></td>
+                <td class="yellow">42<br><span class="elementName">Mo</span></td>
+                <td class="yellow cBrown">43<br><span class="elementName">Tc</span></td>
+                <td class="yellow">44<br><span class="elementName">Ru</span></td>
+                <td class="yellow">45<br><span class="elementName">Rh</span></td>
+                <td class="yellow">46<br><span class="elementName">Pd</span></td>
+                <td class="yellow">47<br><span class="elementName">Ag</span></td>
+                <td class="yellow">48<br><span class="elementName">Cd</span></td>
+                <td class="green">49<br><span class="elementName">In</span></td>
+                <td class="green">50<br><span class="elementName">Sn</span></td>
+                <td class="khaki">51<br><span class="elementName">Sb</span></td>
+                <td class="khaki">52<br><span class="elementName">Te</span></td>
+                <td class="brown">53<br><span class="elementName">I</span></td>
+                <td class="lightblue cGreen">54<br><span class="elementName">Xe</span></td>
+            </tr>
+            <tr>
+                <td class="darkPink cBlue">55<br><span class="elementName">Cs</span></td>
+                <td class="blue">56<br><span class="elementName">Ba</span></td>
+                <td class="lightPink">57-71<br><span class="elementName"></span>&nbsp;</td>
+                <td class="yellow">72<br><span class="elementName">Hf</span></td>
+                <td class="yellow">73<br><span class="elementName">Ta</span></td>
+                <td class="yellow">74<br><span class="elementName">W</span></td>
+                <td class="yellow">75<br><span class="elementName">Re</span></td>
+                <td class="yellow">76<br><span class="elementName">Os</span></td>
+                <td class="yellow">77<br><span class="elementName">Ir</span></td>
+                <td class="yellow">78<br><span class="elementName">Pt</span></td>
+                <td class="yellow">79<br><span class="elementName">Au</span></td>
+                <td class="yellow cBlue">80<br><span class="elementName">Hg</span></td>
+                <td class="green">81<br><span class="elementName">Tl</span></td>
+                <td class="green">82<br><span class="elementName">Pb</span></td>
+                <td class="green">83<br><span class="elementName">Bi</span></td>
+                <td class="khaki">84<br><span class="elementName">Po</span></td>
+                <td class="brown">85<br><span class="elementName">At</span></td>
+                <td class="lightblue cGreen">86<br><span class="elementName">Rn</span></td>
+            </tr>
+            <tr>
+                <td class="darkPink cBlue">87<br><span class="elementName">Fr</span></td>
+                <td class="blue">88<br><span class="elementName">Ra</span></td>
+                <td class="lightPink">89-103<br><span class="elementName"></span>&nbsp;</td>
+                <td class="yellow cBrown">104<br><span class="elementName">Rf</span></td>
+                <td class="yellow cBrown">105<br><span class="elementName">Db</span></td>
+                <td class="yellow cBrown">106<br><span class="elementName">Sg</span></td>
+                <td class="yellow cBrown">107<br><span class="elementName">Bh</span></td>
+                <td class="yellow cBrown">108<br><span class="elementName">Hs</span></td>
+                <td class="yellow cBrown">109<br><span class="elementName">Mt</span></td>
+                <td class="yellow cBrown">110<br><span class="elementName">Ds</span></td>
+                <td class="yellow cBrown">111<br><span class="elementName">Rg</span></td>
+                <td class="yellow cBrown">112<br><span class="elementName">Cn</span></td>
+                <td class="cBrown">113<br><span class="elementName">Nh</span></td>
+                <td class="cBrown">114<br><span class="elementName">Fl</span></td>
+                <td class="cBrown">115<br><span class="elementName">Mc</span></td>
+                <td class="cBrown">116<br><span class="elementName">Lv</span></td>
+                <td class="cBrown">117<br><span class="elementName">Ts</span></td>
+                <td class="cBrown">118<br><span class="elementName">Og</span></td>
+            </tr>
+
+            <!-- This Row is Just for Spacing between the Rows -->
+            <tr class="spaceBetweenRows">
+                <td style="border:0px"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="border: 0px;"></td>
+                <td class="lightPink">57<br><span class="elementName">La</span></td>
+                <td class="lightPink">58<br><span class="elementName">Ce</span></td>
+                <td class="lightPink">59<br><span class="elementName">Pr</span></td>
+                <td class="lightPink">60<br><span class="elementName">Nd</span></td>
+                <td class="lightPink cBrown">61<br><span class="elementName">Pm</span></td>
+                <td class="lightPink">62<br><span class="elementName">Sm</span></td>
+                <td class="lightPink">63<br><span class="elementName">Eu</span></td>
+                <td class="lightPink">64<br><span class="elementName">Gd</span></td>
+                <td class="lightPink">65<br><span class="elementName">Tb</span></td>
+                <td class="lightPink">66<br><span class="elementName">Dy</span></td>
+                <td class="lightPink">67<br><span class="elementName">Ho</span></td>
+                <td class="lightPink">68<br><span class="elementName">Er</span></td>
+                <td class="lightPink">69<br><span class="elementName">Tm</span></td>
+                <td class="lightPink">70<br><span class="elementName">Yb</span></td>
+                <td class="lightPink">71<br><span class="elementName">Lu</span></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="border: 0px;"></td>
+                <td class="lightPink">89<br><span class="elementName">Ac</span></td>
+                <td class="lightPink">90<br><span class="elementName">Th</span></td>
+                <td class="lightPink">91<br><span class="elementName">Pa</span></td>
+                <td class="lightPink">92<br><span class="elementName">U</span></td>
+                <td class="lightPink cBrown">93<br><span class="elementName">Np</span></td>
+                <td class="lightPink cBrown">94<br><span class="elementName">Pu</span></td>
+                <td class="lightPink cBrown">95<br><span class="elementName">Am</span></td>
+                <td class="lightPink cBrown">96<br><span class="elementName">Cm</span></td>
+                <td class="lightPink cBrown">97<br><span class="elementName">Bk</span></td>
+                <td class="lightPink cBrown">98<br><span class="elementName">Cf</span></td>
+                <td class="lightPink cBrown">99<br><span class="elementName">Es</span></td>
+                <td class="lightPink cBrown">100<br><span class="elementName">Fm</span></td>
+                <td class="lightPink cBrown">101<br><span class="elementName">Md</span></td>
+                <td class="lightPink cBrown">102<br><span class="elementName">No</span></td>
+                <td class="lightPink cBrown">103<br><span class="elementName">Lr</span></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
